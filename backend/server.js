@@ -2,10 +2,10 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const express = require("express");
 const multer = require("multer");
-const cors = require("cors");
+
 
 const app = express();
-app.use(cors());
+
 app.use(express.json());
 
 // Mongo DB connection
